@@ -124,17 +124,6 @@ terraform destroy
 
 Type `yes` when prompted.
 
-## Interview Topics You Can Explain
-
-- **Infrastructure as Code:** Terraform defines infrastructure in configuration files.
-- **Provider:** The AWS provider lets Terraform manage AWS resources.
-- **VPC and subnet:** A VPC is an isolated network; a subnet is a network segment inside it.
-- **Internet Gateway and route table:** They provide a route between the public subnet and the internet.
-- **Security group:** Controls inbound and outbound traffic for the EC2 instance.
-- **User data:** Runs a bootstrap script when the EC2 instance launches.
-- **Terraform state:** Records the resources Terraform manages.
-- **Terraform workflow:** `init`, `fmt`, `validate`, `plan`, `apply`, and `destroy`.
-
 ## Important Notes
 
 - Review the plan before applying it.
