@@ -6,9 +6,9 @@
 
 ## Project Overview
 
-This project uses Terraform to provision a small AWS environment and launch an Amazon Linux EC2 instance with Nginx installed automatically.
+This project demonstrates automated AWS infrastructure provisioning using Terraform. It provisions an Amazon Linux EC2 instance within a custom VPC, configures networking and security groups, and automatically installs and starts the Nginx web server using an EC2 user data script.
 
-It is designed as a straightforward Infrastructure as Code portfolio project. It demonstrates Terraform basics, AWS networking, security groups, IAM, EC2 provisioning, and user data.
+The project covers key Infrastructure as Code (IaC) concepts, including Terraform configuration, AWS networking, IAM roles, EC2 provisioning, and automated server configuration.
 
 ## Architecture
 
